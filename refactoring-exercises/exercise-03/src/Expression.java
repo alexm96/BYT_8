@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Expression {
 
 	private char op;
@@ -24,15 +27,36 @@ public class Expression {
 		case 'c':
 			return constant;
 		case '+':
-			return left.evaluate() + right.evaluate();
-		case '-':
-			return left.evaluate() - right.evaluate();
-		case '*':
-			return left.evaluate() * right.evaluate();
-		case '/':
-			return left.evaluate() / right.evaluate();
-		default:
+			return add();
+			case '-':
+				return subtract();
+			case '*':
+				return multiply();
+			case '/':
+				return divide();
+			default:
 			throw new IllegalStateException();
 		}
 	}
+
+	private int divide() {
+		return left.evaluate() / right.evaluate();
+	}
+
+	private int multiply() {
+		return left.evaluate() * right.evaluate();
+	}
+
+	private int subtract() {
+		return left.evaluate() - right.evaluate();
+	}
+
+	private int add() {
+		return left.evaluate() + right.evaluate();
+	}
+
 }
+/*
+* Maybe switch statement? Tbh not too sure what to change here without completely changing structure of tests (For instance left/right->Int etc.
+* If we want to get around the switch completely I would just make a hashmap of expressions / runnables and call the funcs but not sure
+* */
