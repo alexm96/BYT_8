@@ -1,8 +1,37 @@
 public class Matcher {
-	public Matcher() {
+	int[] expected;  int clipLimit; int delta;
+
+
+
+	public Matcher(int[] expected, int clipLimit, int delta) {
+		this.clipLimit=clipLimit;
+		this.expected=expected;
+		this.delta=delta;
+	}
+	public int[] getExpected() {
+		return expected;
 	}
 
-	public boolean match(int[] expected, int[] actual, int clipLimit, int delta) {
+	public void setExpected(int[] expected) {
+		this.expected = expected;
+	}
+
+	public int getClipLimit() {
+		return clipLimit;
+	}
+
+	public void setClipLimit(int clipLimit) {
+		this.clipLimit = clipLimit;
+	}
+
+	public int getDelta() {
+		return delta;
+	}
+
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
+	public boolean match( int[] actual) {
 
 		// Clip "too-large" values
 		for (int i = 0; i < actual.length; i++)
@@ -21,3 +50,6 @@ public class Matcher {
 		return true;
 	}
 }
+/*
+Smell: Long Parameter list? Looks like it would make sense to only pass the actual to match (since we are only checking this) and set/get the expected/delta/clip elsewhere
+ */
