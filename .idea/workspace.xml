@@ -3,15 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f07ce5ed-93c2-42a8-8cb7-7d993f1bfc87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-03/exercise-03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-03/exercise-03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-03/src/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-03/src/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-03/src/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-03/src/ExpressionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/Client1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/Client2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/Client3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/Client4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/PersonClientsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-04/src/PersonClientsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-05/exercise-05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-05/exercise-05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-06/exercise-06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-06/exercise-06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +36,22 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="JUnit.PersonClientsTest">
-    <configuration name="ConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise-02" />
+  <component name="RunManager" selected="JUnit.TicTacToeTest">
+    <configuration name="CsvWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-05" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConfigurationTest" />
+      <option name="MAIN_CLASS_NAME" value="CsvWriterTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvWriterTest.testWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-05" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CsvWriterTest" />
+      <option name="METHOD_NAME" value="testWriter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,26 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionTest.testComplexExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise-03" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionTest" />
-      <option name="METHOD_NAME" value="testComplexExpression" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatcherTest.testMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercise-01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MatcherTest" />
-      <option name="METHOD_NAME" value="testMatch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonClientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exercise-04" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,13 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicTacToeTest" />
+        <item itemvalue="JUnit.CsvWriterTest" />
+        <item itemvalue="JUnit.CsvWriterTest.testWriter" />
         <item itemvalue="JUnit.PersonClientsTest" />
         <item itemvalue="JUnit.ExpressionTest" />
-        <item itemvalue="JUnit.ExpressionTest.testComplexExpression" />
-        <item itemvalue="JUnit.ConfigurationTest" />
-        <item itemvalue="JUnit.MatcherTest.testMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607180286509</updated>
-      <workItem from="1607180287952" duration="4480000" />
+      <workItem from="1607180287952" duration="4856000" />
+      <workItem from="1607185619253" duration="1748000" />
     </task>
     <servers />
   </component>
@@ -127,57 +124,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184561814" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607184681245">
+    <state width="1877" height="56" key="GridCell.Tab.0.bottom" timestamp="1607187889661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184681245" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607184681245">
+    <state width="1877" height="56" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889661" />
+    <state width="1877" height="56" key="GridCell.Tab.0.center" timestamp="1607187889661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184681245" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607184681245">
+    <state width="1877" height="56" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889661" />
+    <state width="1877" height="56" key="GridCell.Tab.0.left" timestamp="1607187889660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184681245" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607184681245">
+    <state width="1877" height="56" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889660" />
+    <state width="1877" height="56" key="GridCell.Tab.0.right" timestamp="1607187889661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184681245" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607181665791">
+    <state width="1877" height="56" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889661" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607185147784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607181665791" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607181665791">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607185147784" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607185147784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607181665791" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607181665791">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607185147784" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607185147784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607181665791" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607181665791">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607185147784" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607185147784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607181665791" />
-    <state x="674" y="229" width="572" height="577" key="RefactorJ.ExtractClass" timestamp="1607182286207">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607185147784" />
+    <state x="674" y="229" width="572" height="569" key="RefactorJ.ExtractClass" timestamp="1607186019424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="674" y="229" width="572" height="577" key="RefactorJ.ExtractClass/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607182286207" />
+    <state x="674" y="229" width="572" height="569" key="RefactorJ.ExtractClass/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607186019424" />
     <state x="775" y="455" key="ReplaceDuplicatesPrompt" timestamp="1607181625978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="455" key="ReplaceDuplicatesPrompt/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607181625978" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1607180288424">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1607185639311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607180288424" />
-    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607184281301">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607185639311" />
+    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607187711379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184281301" />
-    <state x="1220" y="124" width="540" height="496" key="extract.method.dialog" timestamp="1607183586978">
+    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187711379" />
+    <state x="1220" y="124" width="540" height="496" key="extract.method.dialog" timestamp="1607187880518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="124" width="540" height="496" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607183586978" />
+    <state x="1220" y="124" width="540" height="496" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187880518" />
   </component>
 </project>

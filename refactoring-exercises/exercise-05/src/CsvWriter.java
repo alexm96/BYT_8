@@ -39,4 +39,8 @@ public class CsvWriter {
 		}
 		System.out.print('\"');
 	}
+
 }
+/*
+* Tbh this is probably a method chain, but I don't see a better way to implement this without calling other methods in the class.
+* */

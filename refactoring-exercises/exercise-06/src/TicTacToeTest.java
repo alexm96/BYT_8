@@ -1,4 +1,5 @@
-import org.junit.Test;
+import org.junit.jupiter.api.DynamicTest;
+import org.junit.jupiter.api.Test;
 
 public class TicTacToeTest {
 
@@ -17,6 +18,10 @@ public class TicTacToeTest {
 		game = new TicTacToe("XXXXXXXXX");
 		assertEquals(-1, game.suggestMove('X'));
 	}
+
+	private void assertEquals(int i, int x) {
+	}
+
 	@Test
 	public void testFindWinningMove() {
 		TicTacToe game = new TicTacToe("XO-XX-OO-");
