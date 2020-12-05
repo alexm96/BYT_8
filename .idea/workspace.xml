@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f07ce5ed-93c2-42a8-8cb7-7d993f1bfc87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-05/exercise-05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-05/exercise-05.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-05/src/CsvWriterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-06/exercise-06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-06/exercise-06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/refactoring-exercises/exercise-06/src/TicTacToeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeTest">
+  <component name="RunManager" selected="JUnit.CsvWriterTest">
     <configuration name="CsvWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exercise-05" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TicTacToeTest" />
         <item itemvalue="JUnit.CsvWriterTest" />
+        <item itemvalue="JUnit.TicTacToeTest" />
         <item itemvalue="JUnit.CsvWriterTest.testWriter" />
         <item itemvalue="JUnit.PersonClientsTest" />
         <item itemvalue="JUnit.ExpressionTest" />
@@ -104,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607180286509</updated>
       <workItem from="1607180287952" duration="4856000" />
-      <workItem from="1607185619253" duration="1748000" />
+      <workItem from="1607185619253" duration="3332000" />
     </task>
     <servers />
   </component>
@@ -124,22 +120,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607184561814" />
-    <state width="1877" height="56" key="GridCell.Tab.0.bottom" timestamp="1607187889661">
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1607189683492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="56" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889661" />
-    <state width="1877" height="56" key="GridCell.Tab.0.center" timestamp="1607187889661">
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607189683492" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1607189683492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="56" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889661" />
-    <state width="1877" height="56" key="GridCell.Tab.0.left" timestamp="1607187889660">
+    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607189683492" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1607189683491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="56" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889660" />
-    <state width="1877" height="56" key="GridCell.Tab.0.right" timestamp="1607187889661">
+    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607189683491" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1607189683492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="56" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607187889661" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607189683492" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607185147784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

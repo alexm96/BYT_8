@@ -6,7 +6,7 @@ public class CsvWriterTest {
 
 	@Test
 	public void testWriter() {
-		CsvWriter writer = new CsvWriter();
+		CsvWriter writer = new CsvWriter(',','\"');
 		String[][] lines = new String[][] {
 				new String[] {},
 				new String[] { "only one field" },
