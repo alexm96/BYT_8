@@ -12,39 +12,45 @@ public class Configuration {
 		int value;
 
 		valueString = props.getProperty("interval");
-		if (valueString == null) {
-			throw new ConfigurationException("monitor interval");
-		}
-		value = Integer.parseInt(valueString);
-		if (value <= 0) {
-			throw new ConfigurationException("monitor interval > 0");
-		}
+		value = getValue(valueString, "monitor interval", "monitor interval > 0");
 		interval = value;
 
 		valueString = props.getProperty("duration");
-		if (valueString == null) {
-			throw new ConfigurationException("duration");
-		}
-		value = Integer.parseInt(valueString);
-		if (value <= 0) {
-			throw new ConfigurationException("duration > 0");
-		}
-		if ((value % interval) != 0) {
-			throw new ConfigurationException("duration % interval");
-		}
+		value = getValueMultiInput(valueString, "duration", "duration > 0", "duration % interval");
 		duration = value;
 
 		valueString = props.getProperty("departure");
+		value = getValueMultiInput(valueString, "departure offset", "departure > 0", "departure % interval");
+		departure = value;
+	}
+
+	private int getValueMultiInput(String valueString, String duration, String s, String s2) throws ConfigurationException {
+		int value;
 		if (valueString == null) {
-			throw new ConfigurationException("departure offset");
+			throw new ConfigurationException(duration);
 		}
 		value = Integer.parseInt(valueString);
 		if (value <= 0) {
-			throw new ConfigurationException("departure > 0");
+			throw new ConfigurationException(s);
 		}
 		if ((value % interval) != 0) {
-			throw new ConfigurationException("departure % interval");
+			throw new ConfigurationException(s2);
 		}
-		departure = value;
+		return value;
+	}
+
+	private int getValue(String valueString, String s, String s2) throws ConfigurationException {
+		int value;
+		if (valueString == null) {
+			throw new ConfigurationException(s);
+		}
+		value = Integer.parseInt(valueString);
+		if (value <= 0) {
+			throw new ConfigurationException(s2);
+		}
+		return value;
 	}
 }
+/*
+Duplicated code, extract method
+ */

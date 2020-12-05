@@ -1,8 +1,5 @@
 public class Matcher {
 	int[] expected;  int clipLimit; int delta;
-
-
-
 	public Matcher(int[] expected, int clipLimit, int delta) {
 		this.clipLimit=clipLimit;
 		this.expected=expected;

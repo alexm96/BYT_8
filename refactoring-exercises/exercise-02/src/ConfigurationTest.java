@@ -1,7 +1,11 @@
-import org.junit.Test;
+
+
+import org.junit.jupiter.api.Test;
 
 import java.io.*;
 import java.util.*;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ConfigurationTest{
 
@@ -15,7 +19,7 @@ public class ConfigurationTest{
 		try {
 			props.load(input);
 		} catch (ConfigurationException e) {
-			assertTrue(false);
+			fail();
 			return;
 		}
 
