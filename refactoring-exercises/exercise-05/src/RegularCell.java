@@ -5,6 +5,6 @@ public class RegularCell extends Cell {
 
     @Override
     public void Write() {
-        System.out.println(this.content);
+        System.out.print(this.content);
     }
 }

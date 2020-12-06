@@ -6,7 +6,8 @@ public class CsvWriterTest {
 
 	@Test
 	public void testWriter() {
-		CsvWriter writer = new CsvWriter(',','\"');
+		OriginalCsvWriter csvWriter=new OriginalCsvWriter();
+		CsvWriter newCsvWriter = new CsvWriter(',','\"');
 		String[][] lines = new String[][] {
 				new String[] {},
 				new String[] { "only one field" },
@@ -17,8 +18,7 @@ public class CsvWriterTest {
 				new String[] { "\"", "embedded \" quotes",
 						"multiple \"\"\" quotes\"\"" },
 				new String[] { "mixed commas, and \"quotes\"", "simple field" } };
-		Csv sampleCsv=new Csv(lines,',','\"');
-		writer.write(sampleCsv);
+		Csv Sample = new Csv(lines,',','\"');
 		// Expected:
 		// -- (empty line)
 		// only one field
@@ -27,6 +27,8 @@ public class CsvWriterTest {
 		// ",","embedded , commas, included","trailing comma,"
 		// """","embedded "" quotes","multiple """""" quotes"""""
 		// "mixed commas, and ""quotes""",simple field
+		csvWriter.write(lines);
+		newCsvWriter.write(Sample);
 
 
 	}

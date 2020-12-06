@@ -14,10 +14,10 @@ public class Row implements Writeable {
        int iter=0;
        for (String content : row){
           if(shouldwriteQuoted(content)){
-              sampleCells[iter]=new QuotedCell(content,separator,cellWrapper);
+              sampleCells[iter]=new QuotedCell(content,cellWrapper,separator);
           }
           else{
-              sampleCells[iter]=new RegularCell(content,separator,cellWrapper);
+              sampleCells[iter]=new RegularCell(content,cellWrapper,separator);
           }
           iter++;
        }
@@ -28,8 +28,15 @@ public class Row implements Writeable {
     }
     @Override
     public void Write() {
-        for (Cell cell:row){
-            cell.Write();
+        if(row.length==0){
+            System.out.println();
+            return;
         }
+        row[0].Write();
+        for (int i =1;i<row.length;i++){
+            System.out.print(separator);
+            row[i].Write();
+        }
+        System.out.println();
     }
 }

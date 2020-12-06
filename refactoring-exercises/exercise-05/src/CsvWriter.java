@@ -10,6 +10,7 @@ public class CsvWriter {
 	public void write(Csv toWrite) {
 	for(Row row : toWrite.rows){
 		row.Write();
+
 	}
 	}
 
