@@ -1,7 +1,9 @@
 public class RegularCell extends Cell {
-    public RegularCell(String content, Character cellwrapper, Character separator) {
-        super(content, cellwrapper, separator);
+    public RegularCell(String content, Csv.Formatting formatting) {
+        super(content, formatting);
     }
+
+
 
     @Override
     public void Write() {

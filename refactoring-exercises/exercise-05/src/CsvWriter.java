@@ -26,5 +26,7 @@ public class CsvWriter {
 
 /*
 * Tbh this is probably a message chain, but I don't see a better way to implement this without calling other methods in the class.
-* Also primitive obsession, will split each part into own object (CSV->Row-> Cell (abstract)
+* Also primitive obsession, will split each part into own object (CSV->Row-> Cell (abstract) (either quoted/unquoted)
+* The only thing i'm not sure of is how to not pass down the cellwrapper+separator to each cell/row/ etc
+*
 * */

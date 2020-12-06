@@ -1,11 +1,9 @@
 public abstract class Cell implements Writeable {
    String content;
-    Character Cellwrapper;
-    Character separator;
-    public Cell(String content,Character cellwrapper,Character separator) {
+    Csv.Formatting formatting;
+    public Cell(String content, Csv.Formatting formatting) {
+       this.formatting=formatting;
        this.content=content;
-       this.Cellwrapper=cellwrapper;
-       this.separator=separator;
     }
 
 }
