@@ -17,7 +17,8 @@ public class CsvWriterTest {
 				new String[] { "\"", "embedded \" quotes",
 						"multiple \"\"\" quotes\"\"" },
 				new String[] { "mixed commas, and \"quotes\"", "simple field" } };
-
+		Csv sampleCsv=new Csv(lines,',','\"');
+		writer.write(sampleCsv);
 		// Expected:
 		// -- (empty line)
 		// only one field
@@ -27,6 +28,6 @@ public class CsvWriterTest {
 		// """","embedded "" quotes","multiple """""" quotes"""""
 		// "mixed commas, and ""quotes""",simple field
 
-		writer.write(lines);
+
 	}
 }
