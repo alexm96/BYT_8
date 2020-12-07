@@ -31,22 +31,34 @@ public class Matcher {
 	public boolean match( int[] actual) {
 
 		// Clip "too-large" values
-		for (int i = 0; i < actual.length; i++)
-			if (actual[i] > clipLimit)
-				actual[i] = clipLimit;
+		clipActual(actual);
 
 		// Check for length differences
-		if (actual.length != expected.length)
+		if (isOutOfBounds(actual))
 			return false;
 
 		// Check that each entry within expected +/- delta
+		return !withinDelta(actual);
+	}
+
+	private boolean withinDelta(int[] actual) {
 		for (int i = 0; i < actual.length; i++)
 			if (Math.abs(expected[i] - actual[i]) > delta)
-				return false;
+				return true;
+		return false;
+	}
 
-		return true;
+	private boolean isOutOfBounds(int[] actual) {
+		return actual.length != expected.length;
+	}
+
+	private void clipActual(int[] actual) {
+		for (int i = 0; i < actual.length; i++)
+			if (actual[i] > clipLimit)
+				actual[i] = clipLimit;
 	}
 }
 /*
 Smell: Long Parameter list? Looks like it would make sense to only pass the actual to match (since we are only checking this) and set/get the expected/delta/clip elsewhere
+also changed method to be invidual methods
  */
