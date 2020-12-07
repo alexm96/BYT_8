@@ -1,4 +1,4 @@
-public abstract class Cell implements Writeable {
+public abstract class Cell implements IWriteable {
    String content;
     Csv.Formatting formatting;
     public Cell(String content, Csv.Formatting formatting) {

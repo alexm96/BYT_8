@@ -1,4 +1,4 @@
-public class Csv implements Writeable{
+public class Csv implements IWriteable {
     public class Formatting{
         Character cellWrapper;
         Character separator;

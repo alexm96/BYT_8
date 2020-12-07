@@ -78,3 +78,7 @@ public class TicTacToe {
 		return null;
 	}
 }
+/*
+* Split longer method into multiple smaller methods to check different win conditions. Potentially could also have a board / player class but not
+* sure which way would be the best to implement this.
+* */

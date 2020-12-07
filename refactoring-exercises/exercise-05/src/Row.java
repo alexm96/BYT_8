@@ -1,4 +1,4 @@
-public class Row implements Writeable {
+public class Row implements IWriteable {
     Character separator;
     Character cellWrapper;
     Cell[] row;
